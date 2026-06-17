@@ -14,7 +14,7 @@ public class FinalPracticeTest {
                 new ListNode(42,
                 new ListNode(11,
                 new ListNode(29,
-                new ListNode(43)))))))));
+                new ListNode(34)))))))));
 
         int actual = FinalPractice.oddIndexSum(list);
 
@@ -73,7 +73,7 @@ public class FinalPracticeTest {
                 new ListNode(25,
                 new ListNode(-30))))));
 
-        assertEquals(-2, FinalPractice.oddIndexSum(list));
+        assertEquals(-20, FinalPractice.oddIndexSum(list));
     }
 
     @Test
